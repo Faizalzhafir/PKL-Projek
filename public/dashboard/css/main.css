@@ -172,8 +172,8 @@ h6 {
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  color: #ffffff;
+  background: #23486a;
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -214,7 +214,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: rgba(40, 58, 90, 0.9);
+  --background-color: #ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -240,7 +240,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #fff;
     padding: 18px 15px;
     font-size: 15px;
     font-family: var(--nav-font);
@@ -267,7 +267,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #23486a;
   }
 
   .navmenu .dropdown ul {
@@ -1402,7 +1402,7 @@ section,
 # Team Section
 --------------------------------------------------------------*/
 .team .team-member {
-  background-color: var(--surface-color);
+  background-color: var(--background-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   position: relative;
   border-radius: 5px;
